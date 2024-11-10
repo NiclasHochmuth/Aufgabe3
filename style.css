@@ -1,0 +1,151 @@
+body {
+    font-family: Courier;
+    background: white;
+    color: black;
+    display: block;
+    text-align: left;
+      font-size: 16px;
+    filter: brightness(2.75);
+    height: 100vh;
+      overflow: auto;
+    background: linear-gradient(blue);
+  }
+  
+  
+  h1,h2{
+      margin: 0px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-weight: Bold;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Arial Black;
+  }
+  
+  h3{	margin: 5px;
+    justify-content: flex-start;
+    font-weight: Bold;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Arial Black Rounded MT;
+    background: linear-gradient(blue, red);
+  }
+  
+  
+  
+  .ganzertext{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex;
+    gap: 0px;
+  }
+  
+  
+   .textblock{
+    border-left: solid;
+    border-left-color: linear-gradient(red, blue); 
+    display: block;
+     background: linear-gradient(blue, red);
+     width: 19%;
+     padding: 0px;
+    }
+  
+  
+  
+   p, .small{
+     margin: 7px;
+     font-weight: Bold;
+    font-size: 18px;
+    line-height: .em;
+     letter-spacing: -1.5px;
+     text-align: left;
+  }
+  
+   p2, .small{
+     text-align: right;
+    border-color: Black;
+     border left: solid;
+    font-size: 14px;
+    line-height: 1.15em;
+  }
+  
+  
+  h2,.medium{
+    font-size: 1.5em;
+    line-height: .95em;
+    margin-bottom: 1em;
+    letter-spacing:-0.065em;
+  }
+  
+  .p,.large{
+      font-size: 5em;
+      line-height: 0.8em;
+      letter-spacing: -0.25rem;
+  }
+  
+  h1,.extralarge{
+    padding-top:;
+      font-size: 13vw;
+      line-height: 0.8em;
+      letter-spacing: -1vw;
+  }
+  
+  .extraextralarge{
+      font-size: 30vw;
+      line-height: 0.75em;
+      letter-spacing: -2.5rem;
+  }
+  
+  .intro{
+    display: flex;
+    padding: 10px;
+    border-top: solid;
+    justify-content: flex-end;
+  }
+  
+  /* 
+  h2,h1,.one_col{
+      column-count 1;
+  }
+  
+  .two_col{
+      column-count: 2;
+      column-gap: 0.3em;
+      margin: 0px;
+  }
+  
+  .four_col{
+      column-count: 4;
+      column-gap: 0.7em;
+  }
+  
+  
+  
+  
+  @media (min-width: 1840px){
+    p{
+      font-size: 0.85em;
+    }
+  }
+  
+  @media (max-width: 740px) {
+    p{
+      font-size: 10px;
+    }
+    h2{
+      font-size: 10px;
+    }
+    .h2p{
+      display: flex;
+      flex-direction: row;
+      gap: 2px;
+    }
+    content{
+      display: block;
+    }
+    .haupttext{
+      column-count: 1;
+    }
+  } */
