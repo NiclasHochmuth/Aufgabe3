@@ -11,6 +11,10 @@ body {
     background: linear-gradient(blue);
   }
   
+  h1{
+    color: red;
+    stroke: black;
+  }
   
   h1,h2{
       margin: 0px;
@@ -39,7 +43,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex;
-    gap: 0px;
+    gap: -10px;
+    padding: 0px;
   }
   
   
@@ -47,9 +52,9 @@ body {
     border-left: solid;
     border-left-color: linear-gradient(red, blue); 
     display: block;
-     background: linear-gradient(blue, red);
+    background-image: linear-gradient(to right, rgb(109, 100, 233), rgb(255, 23, 23));
      width: 19%;
-     padding: 0px;
+     padding: 4px;
     }
   
   
@@ -98,11 +103,23 @@ body {
       letter-spacing: -2.5rem;
   }
   
+
+
+    .intro-background{
+        background-image: url(img/playground.jpg.jpg);
+        background-size: contain;
+    }
+
+  
+  
   .intro{
     display: flex;
     padding: 10px;
     border-top: solid;
     justify-content: flex-end;
+    background-image: url(img/playground.jpg.jpg);
+    background-size: cover;
+    
   }
   
   /* 
