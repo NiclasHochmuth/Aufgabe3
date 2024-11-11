@@ -40,10 +40,10 @@ body {
   .ganzertext{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: inherit;
     justify-content: space-evenly;
-    align-items: flex;
-    gap: -10px;
+    align-items: stretch; 
+    gap: 0px;
     padding: 0px;
   }
   
@@ -53,15 +53,15 @@ body {
     border-left-color: linear-gradient(red, blue); 
     display: block;
     background-image: linear-gradient(to right, rgb(109, 100, 233), rgb(255, 23, 23));
-     width: 19%;
-     padding: 4px;
+     width: 20%;
+     font-family: 'Segoe UI';
     }
   
   
   
    p, .small{
      margin: 7px;
-     font-weight: Bold;
+     font-weight: normal;
     font-size: 18px;
     line-height: .em;
      letter-spacing: -1.5px;
@@ -114,8 +114,11 @@ body {
   
   .intro{
     display: flex;
-    padding: 10px;
+    padding: 20px;
     border-top: solid;
+    border-bottom: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1rem ;
     justify-content: flex-end;
     background-image: url(img/playground.jpg.jpg);
     background-size: cover;
@@ -134,8 +137,8 @@ body {
   }
   
   .four_col{
-      column-count: 4;
-      column-gap: 0.7em;
+      column-count: 2;
+      column-gap: 0.em;
   }
   
   
